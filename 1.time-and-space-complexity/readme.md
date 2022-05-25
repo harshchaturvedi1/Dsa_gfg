@@ -150,13 +150,14 @@ What is the return value of the function? (GATE CS 2013)
 - B B
 - C C
 - D D
-  Explanation
-  In the below explanation, '^' is used to represent exponent:
-  The outer loop runs n/2 or Theta(n) times.
-  The inner loop runs (Logn) times (Note that j is multiplied by 2 in every iteration).
-  So the statement "k = k + n/2;" runs Theta(nLogn) times.
-  The statement increases value of k by n/2.
-  So the value of k becomes n/2\*Theta(nLogn) which is Theta((n^2) \* Logn).
+
+Explanation
+In the below explanation, '^' is used to represent exponent:
+The outer loop runs n/2 or Theta(n) times.
+The inner loop runs (Logn) times (Note that j is multiplied by 2 in every iteration).
+So the statement "k = k + n/2;" runs Theta(nLogn) times.
+The statement increases value of k by n/2.
+So the value of k becomes n/2\*Theta(nLogn) which is Theta((n^2) \* Logn).
 
 ## Question 7 [5 Marks]
 
