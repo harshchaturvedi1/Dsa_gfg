@@ -1,4 +1,4 @@
-#### Question 1 [5 Marks]
+## Question 1 [5 Marks]
 
 What is the time complexity of fun()?
 
@@ -23,7 +23,7 @@ return count;
 
 Time complexity = Theta(0 + 1 + 2 + 3 + .. + n-1) = Theta (n\*(n-1)/2) = Theta(n2)
 
-#### Question 2 [5 Marks]
+## Question 2 [5 Marks]
 
 Let w(n) and A(n) denote respectively, the worst case and average case running time of an algorithm executed on an input of size n. which of the following is ALWAYS TRUE? (GATE CS 2012)
 (A) A(n) = Omega(W(n))
@@ -33,7 +33,7 @@ Let w(n) and A(n) denote respectively, the worst case and average case running t
 Explanation
 The worst case time complexity is always greater than or same as the average case time complexity.
 
-#### Question 3 [5 Marks]
+## Question 3 [5 Marks]
 
 Which of the following is not O(n^2)?
 A (15^10) _ n + 12099
@@ -44,7 +44,7 @@ D (2^20) _ n
 Explanation
 The order of growth of option c is n2.5 which is higher than n2.
 
-#### Question 4 [5 Marks]
+## Question 4 [5 Marks]
 
 Which of the given options provides the increasing order of asymptotic complexity of functions f1, f2, f3 and f4?
 f1(n) = 2^n
@@ -79,7 +79,7 @@ n = 64, f1 = 2^64, f4 = 64^6 = 2^36
 ...............
 Also see http://www.wolframalpha.com/input/?i=2^n+vs+n^%28log+n%29
 
-#### Question 5 [5 Marks]
+## Question 5 [5 Marks]
 
 Consider the following program fragment for reversing the digits in a given integer to obtain a new integer. Let n = D1D2…Dm
 
@@ -105,7 +105,7 @@ D n = D1D2….Dm and rev = DmDm-1…D2D1
 Explanation
 We can get it by taking an example like n = 54321. After 2 iterations, rev would be 12 and n would be 543.
 
-#### Question 6 [5 Marks]
+## Question 6 [5 Marks]
 
 Consider the following function
 int unknown(int n) {
@@ -132,7 +132,7 @@ So the statement "k = k + n/2;" runs Theta(nLogn) times.
 The statement increases value of k by n/2.
 So the value of k becomes n/2*Theta(nLogn) which is Theta((n^2) \* Logn).
 
-#### Question 7 [5 Marks]
+## Question 7 [5 Marks]
 
 The recurrence equation
 T(1) = 1
