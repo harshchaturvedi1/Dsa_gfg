@@ -177,3 +177,23 @@ d. 2^n + n
 - B b
 - C c
 - D d
+
+## Question 8 [5 Marks]
+
+Consider the following three claims
+
+- 1. (n + k)m = Θ(nm), where k and m are constants
+- 2. 2n + 1 = O(2n)
+- 3. 22n + 1 = O(2n)
+
+Which of these claims are correct ?
+
+- A 1 and 2
+- B 1 and 3
+- C 2 and 3
+- D 1, 2, and 3
+
+Explanation
+(n + k)m and Θ(nm) are asymptotically same as theta notation can always be written by taking the leading order term in a polynomial expression. \n
+2n + 1 and O(2n) are also asymptotically same as 2n + 1 can be written as 2 \* 2n and constant multiplication/addition doesn't matter in theta notation. \n
+22n + 1 and O(2n) are not same as constant is in power.
